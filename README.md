@@ -18,7 +18,7 @@
 ###Transers Accelration:
 *Fast transfer for file
 **Using cloud front and edge locations(this will cache)
-**avaliablity zones??
+**avaliablity zones
 **superfast network
 *cross reion replication 
 **allows to have to buckets in different regions for disaster recovery 
@@ -44,8 +44,7 @@
 ### A big CDN(definition)
 ** edge locations. location where the content wil be cached 
 ** origin this si the of all the files that the cdn wil distrubute
-** distribute ?? 
-** cloud front caching when second user access the same resrouce stored very far!!
+** cloud front caching when second user access the same resource stored very far
 ** ttl cache expiry date 
 ## terminology: 
 *web distribution 
@@ -119,13 +118,9 @@
 ## Redshift 
 
 ## Elasticache 
-* It's a wenb serviace that meakes it easy to deploy operate, and scale and in memory cahcne in the cloud.
+* It's a wenb serviace that meakes it easy to deploy operate, and scale and in memory cacne in the cloud.
 * memcache; redis (elastci cache engine)
-* red shift olap(how does it store the data?)
-
-
-
-### Auto scaling
+* red shift olap
 
 ### Route 53
 * amazon DNS service 
@@ -241,7 +236,7 @@ ther are some that offer global view but regional services
     * Durable data storeage 
     * Automated muti data center eseilienc e
     * Fault isolation tradional horizantal scaling
-    * Vertical scaling differences??
+    * Vertical scaling 
     * Sharding data (ES)
   * Opitmize for Cost 
     * Risht sizing 
